@@ -24,19 +24,19 @@ public class Application01 {
 			
 			switch(no) {
 			case 1 :
-				dt.checkyoungmin();
+				dt.checkyoungmin();			//용민의 기본정보 출력문
 				break;
 			case 2 :
-				dt.studyyongmin();
+				dt.studyyongmin();			//용민의 공부점수 더하기
 				break;
 			case 3 : 
-				dt.playyongmin();
+				dt.playyongmin();			//용민의 놀기점수 뺴기
 				break;
 			case 7 :
-				dt.Interview();
+				dt.Interview();				//용민의 면접  조건 달성시 점수에 따른 확률로 면접합격 및 이름 변경
 				break;
 			case 9 :
-				System.out.println(" 용민이가 포기했습니다...");
+				System.out.println(" 용민이가 포기했습니다...");			//종료문
 				System.out.println("======================================");
 				System.out.println("Game over...");
 				break;
