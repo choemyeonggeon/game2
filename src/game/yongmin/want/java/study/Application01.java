@@ -38,7 +38,7 @@ public class Application01 {
 			case 9 :
 				System.out.println(" 용민이가 포기했습니다...");			//종료문
 				System.out.println("======================================");
-				System.out.println("Game over...");
+				System.out.println("Game over....");
 				break;
 			default :
 				System.out.println("다른 번호를 다시 입력해 주세요");
